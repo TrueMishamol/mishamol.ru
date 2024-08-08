@@ -1,0 +1,39 @@
+.button {
+	display: inline-block;
+	background-color: #FFFFFF;
+	color: #292B3E;
+	padding: 0 var(--40px) var(--12px);
+	border: none;
+	border-radius: var(--64px);
+	cursor: pointer;
+	font-size: var(--50px);
+	text-align: center;
+	text-decoration: none;
+	transition: transform 0.3s ease-in-out;
+	white-space: nowrap;
+	-webkit-tap-highlight-color: transparent;
+}
+
+// .button:focus {
+//     outline: none;
+//     color: #292B3E;
+// }
+
+.button:visited {
+    outline: none;
+    color: #292B3E;
+}
+
+.button:hover {
+	transform: scale(1.1);
+	background-color: #FF3D00;
+	color: #FFFFFF;
+}
+
+.button:active {
+	background-color: #292B3E;
+	color: #FFFFFF;
+}
+
+
+

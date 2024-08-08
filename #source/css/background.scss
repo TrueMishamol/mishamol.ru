@@ -1,0 +1,142 @@
+%base-background {
+	height: var(--212px);
+	z-index: 2;
+	position: relative;
+
+	pointer-events: none;
+
+	>* {
+		pointer-events: all;
+	}
+}
+
+
+
+
+.background_pale {
+	@extend %base-background;
+	background-color: #FF8652;
+}
+
+.background_orange {
+	@extend %base-background;
+	background-color: #FF612F;
+
+}
+
+.background_blue {
+	@extend %base-background;
+	background-color: #292B3E;
+
+}
+
+.background_transparent {
+	@extend %base-background;
+	background-color: #00000000;
+
+}
+
+.background_orange_pale_down {
+	@extend %base-background;
+	background: linear-gradient(to top right, #FF612F 50%, #FF8652 50%);
+
+}
+
+.background_blue_orange_down {
+	@extend %base-background;
+	background: linear-gradient(to top right, #292B3E 50%, #FF612F 50%);
+
+}
+
+.background_blue_orange_up {
+	@extend %base-background;
+	background: linear-gradient(to bottom right, #292B3E 50%, #FF612F 50%);
+
+}
+
+.background_blue_pale_up {
+	@extend %base-background;
+	background: linear-gradient(to bottom right, #292B3E 50%, #FF8652 50%);
+
+}
+
+.background_blue_pale_down {
+	@extend %base-background;
+	background: linear-gradient(to top right, #292B3E 50%, #FF8652 50%);
+
+}
+
+
+
+
+.background_blue_transparent_up {
+	@extend %base-background;
+	background: linear-gradient(to bottom right, #292B3E 50%, #00000000 50%);
+
+}
+
+.background_blue_transparent_down {
+	@extend %base-background;
+	background: linear-gradient(to top right, #292B3E 50%, #00000000 50%);
+
+}
+
+.background_orange_transparent_up {
+	@extend %base-background;
+	background: linear-gradient(to bottom right, #FF612F 50%, #00000000 50%);
+
+}
+
+.background_orange_transparent_down {
+	@extend %base-background;
+	background: linear-gradient(to top right, #FF612F 50%, #00000000 50%);
+
+}
+
+.background_pale_transparent_up {
+	@extend %base-background;
+	background: linear-gradient(to bottom right, #FF8652 50%, #00000000 50%);
+
+}
+
+.background_pale_transparent_down {
+	@extend %base-background;
+	background: linear-gradient(to top right, #FF8652 50%, #00000000 50%);
+
+}
+
+.background_transparent_orange_up {
+	@extend %base-background;
+	background: linear-gradient(to bottom right, #00000000 50%, #FF612F 50%);
+}
+
+
+
+
+.mask_transparent_up {
+	@extend %base-background;
+	mask-image: linear-gradient(to bottom right, #FFFFFF 50%, #00000000 50%);
+	mask-clip: padding-box;
+	pointer-events: none;
+}
+
+.mask_transparent_down {
+	@extend %base-background;
+	mask-image: linear-gradient(to top right, #FFFFFF 50%, #00000000 50%);
+	mask-clip: padding-box;
+	pointer-events: none;
+}
+
+.transparent_mask_up {
+	@extend %base-background;
+	mask-image: linear-gradient(to bottom right, #00000000 50%, #FFFFFF 50%);
+	mask-clip: padding-box;
+	pointer-events: none;
+}
+
+.transparent_mask_down {
+	@extend %base-background;
+	mask-image: linear-gradient(to top right, #00000000 50%, #FFFFFF 50%);
+	mask-clip: padding-box;
+	pointer-events: none;
+}

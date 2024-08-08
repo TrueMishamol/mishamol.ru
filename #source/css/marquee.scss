@@ -1,0 +1,67 @@
+// Marquee
+@keyframes scroll {
+	0% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(-100%);
+	}
+}
+
+.marquee {
+	display: block;
+	width: 100%;
+	max-width: var(--720px);
+	height: 100%;
+	max-height: var(--424px);
+	margin: 0 auto;
+	white-space: nowrap;
+
+	&_group,
+	&_duplicate {
+		display: block;
+		animation: scroll 15s infinite linear;
+
+		div {
+			display: block;
+			transition: all 0.3s ease;
+		}
+	}
+}
+
+
+
+
+.marquee_game {
+	width: var(--720px);
+	padding: 0 var(--64px);
+	margin: 0 auto;
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+		li {
+			height: var(--128px);
+			// padding-bottom: var(--16px);
+			position: relative;
+		}
+
+		li img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: var(--100px);
+			height: var(--100px);
+		}
+
+		li p {
+			position: absolute;
+
+			left: var(--128px);
+		}
+
+	}
+}

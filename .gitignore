@@ -1,0 +1,11 @@
+desktop.ini
+!/desktop.ini
+
+*.jpg~
+*.png~
+*.kra~
+*.DS_Store
+
+_TEC
+
+_materials

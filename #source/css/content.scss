@@ -1,0 +1,251 @@
+.mishamol {
+	width: 100%;
+	height: 100%;
+	display: flex;
+
+	& img {
+		width: var(--720px);
+		height: auto;
+		margin: auto;
+		padding: var(--32px);
+
+		transition: transform 0.3s ease-in-out;
+
+		&:hover {
+			transform: scale(1.05);
+		}
+	}
+}
+
+.mishamol_description {
+	height: 100%;
+	max-width: var(--720px);
+	margin: auto;
+	padding: 0 var(--50px);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: relative;
+	bottom: var(--50px);
+
+	p {
+		display: flex;
+		margin: auto;
+	}
+}
+
+.mishamol_start_button {
+	position: relative;
+	top: var(---50px);
+	margin: auto;
+	display: block;
+	z-index: 3;
+	width: fit-content;
+}
+
+.mishamol_sticker_pose {
+	position: relative;
+	margin: auto;
+	display: block;
+	right: var(---256px);
+	top: var(---64px);
+	width: var(--212px);
+	height: var(--212px);
+	transition: transform 0.3s ease-in-out;
+	z-index: 4;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+
+.sticker_arrow {
+	position: relative;
+	margin: auto;
+	display: block;
+	width: var(--212px);
+	height: 0;
+
+	img {
+		right: var(---256px);
+		top: var(---50px);
+
+		position: relative;
+		margin: auto;
+		width: var(--212px);
+		height: var(--212px);
+	}
+}
+
+
+
+
+.description_left {
+	height: 100%;
+	width: var(--720px);
+	margin: 0 auto;
+	padding: 0 var(--64px);
+	position: relative;
+	top: var(---100px);
+
+	p {
+		display: flex;
+		margin: 0;
+		position: relative;
+		top: var(---8px);
+	}
+
+	h1 {
+		display: flex;
+		margin: 0;
+		position: relative;
+		top: var(---16px);
+	}
+}
+
+.description_right {
+	text-align: right;
+
+	height: 100%;
+	width: var(--720px);
+	margin: 0 auto;
+	padding: 0 var(--64px);
+	position: relative;
+	top: var(---100px);
+
+	p {
+		display: flex;
+		justify-content: flex-end;
+		margin: 0;
+		position: relative;
+		top: var(---8px);
+	}
+
+	h1 {
+		display: flex;
+		justify-content: flex-end;
+		margin: 0;
+		position: relative;
+		top: var(---16px);
+	}
+}
+
+//^ A bit different
+//^ Used for Archive
+.description_center {
+	text-align: center;
+
+	height: 100%;
+	width: var(--720px);
+	margin: 0 auto;
+	padding: 0 var(--64px);
+	position: relative;
+	top: var(---128px);
+
+	p {
+		display: flex;
+		justify-content: center;
+		margin: 0;
+		position: relative;
+		top: var(---8px);
+	}
+
+	h1 {
+		display: flex;
+		justify-content: center;
+		margin: 0;
+		position: relative;
+		top: var(---16px);
+	}
+
+	>.button {
+		position: relative;
+		top: var(--32px);
+	}
+}
+
+
+
+
+.gamedev_games {
+	position: relative;
+	z-index: 0;
+	height: 0;
+	width: 100%;
+
+	>div {
+		height: var(--424px);
+		width: 100%;
+		background-color: #292B3E;
+		position: relative;
+		bottom: var(--212px);
+
+		>div {
+			width: var(--720px);
+			padding: 0 var(--64px);
+			margin: 0 auto;
+		}
+
+	}
+
+	img {
+		transition: transform 0.3s ease-in-out;
+
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+}
+
+
+
+
+.mishamol_download {
+	position: relative;
+	top: var(---50px);
+	right: var(---100px);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+
+	p {
+		margin: var(---8px) 0 var(--50px) 0;
+	}
+
+}
+
+.mishamol_sticker_cool {
+	position: relative;
+	margin: auto;
+	display: block;
+	left: var(---212px);
+	top: var(---128px);
+	width: var(--212px);
+	height: var(--212px);
+	transition: transform 0.3s ease-in-out;
+	z-index: 4;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+
+
+
+
+.mail {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+
+	padding: var(--50px);
+}

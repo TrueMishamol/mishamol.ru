@@ -1,0 +1,13 @@
+body {
+	background-color: #FF8652;
+	margin: 0;
+	padding: 0;
+
+	overflow-x: hidden;
+}
+
+img {
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: crisp-edges;
+}

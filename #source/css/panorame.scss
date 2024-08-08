@@ -1,0 +1,79 @@
+.panorame {
+	position: relative;
+	height: 0;
+	top: var(---212px);
+	pointer-events: none;
+	z-index: 3;
+
+	&_round {
+		flex-grow: 0; //^ Self in _container
+		display: block;
+		text-align: right;
+		margin: var(--32px) var(--50px) var(--32px) auto;
+
+		position: relative;
+		bottom: var(---50px);
+		z-index: 3;
+		pointer-events: none;
+
+		&_icon {
+			display: inline-block;
+			width: var(--64px);
+			height: var(--64px);
+			margin: 0;
+			transition: transform 0.3s ease-in-out;
+
+			pointer-events: all;
+
+			&:hover {
+				transform: scale(1.1);
+			}
+
+			& img {
+				width: 100%;
+				height: 100%;
+				object-fit: fill;
+			}
+		}
+
+		a {
+			display: inline-block;
+			width: auto;
+			height: auto;
+			margin-left: var(--8px);
+			padding: 0;
+		}
+	}
+
+}
+
+.panorame_up {
+	position: relative;
+	// top: 0;
+	@extend %base-background;
+	width: 100%;
+	z-index: 2;
+
+	>.panorame_image {
+		height: var(--424px);
+		width: 100%;
+		object-fit: cover;
+		pointer-events: none;
+	}
+}
+
+.panorame_down {
+	position: absolute;
+	@extend %base-background;
+	width: 100%;
+	z-index: 2;
+
+	>.panorame_image {
+		height: var(--424px);
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		object-fit: cover;
+		pointer-events: none;
+	}
+}

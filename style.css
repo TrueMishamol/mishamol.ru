@@ -935,6 +935,8 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
+  max-height: 100%;
+  max-width: 100%;
   z-index: 7;
   opacity: 0;
   -webkit-transition: opacity 0.5s ease;

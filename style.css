@@ -211,6 +211,10 @@ p {
   top: var(--32px);
   left: var(--50px);
   z-index: 5;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+       user-select: none;
 }
 .navbar_burger_logo {
   width: var(--56px);
@@ -234,6 +238,10 @@ p {
   display: block;
   text-align: right;
   margin: var(--32px) var(--50px) var(--32px) auto;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+       user-select: none;
 }
 .navbar_round_icon {
   display: inline-block;
@@ -376,6 +384,10 @@ p {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   white-space: nowrap;
   -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+       user-select: none;
 }
 
 .button:visited {
@@ -527,6 +539,10 @@ p {
   top: var(---212px);
   pointer-events: none;
   z-index: 3;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+       user-select: none;
 }
 .panorame_round {
   -webkit-box-flex: 0;
@@ -603,6 +619,10 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+       user-select: none;
 }
 .mishamol img {
   width: var(--720px);
@@ -666,6 +686,10 @@ p {
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   z-index: 4;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+       user-select: none;
 }
 .mishamol_sticker_pose:hover {
   -webkit-transform: scale(1.1);
@@ -678,6 +702,10 @@ p {
   display: block;
   width: var(--720px);
   height: 0;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+       user-select: none;
 }
 .sticker_arrow img {
   float: right;
@@ -847,6 +875,10 @@ p {
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   z-index: 4;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+       user-select: none;
 }
 .mishamol_sticker_cool:hover {
   -webkit-transform: scale(1.1);
@@ -930,6 +962,10 @@ p {
   left: 0;
   width: var(--100px);
   height: var(--100px);
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+       user-select: none;
 }
 .marquee_game ul li p {
   position: absolute;

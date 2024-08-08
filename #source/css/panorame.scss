@@ -5,6 +5,10 @@
 	pointer-events: none;
 	z-index: 3;
 
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
 	&_round {
 		flex-grow: 0; //^ Self in _container
 		display: block;

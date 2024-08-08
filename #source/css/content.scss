@@ -3,6 +3,10 @@
 	height: 100%;
 	display: flex;
 
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
 	& img {
 		width: var(--720px);
 		height: auto;
@@ -55,6 +59,10 @@
 	height: var(--212px);
 	transition: transform 0.3s ease-in-out;
 	z-index: 4;
+	
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 
 	&:hover {
 		transform: scale(1.1);
@@ -67,6 +75,10 @@
 	display: block;
 	width: var(--720px);
 	height: 0;
+
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 
 	img {
 		float: right;
@@ -231,6 +243,10 @@
 	height: var(--212px);
 	transition: transform 0.3s ease-in-out;
 	z-index: 4;
+
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 
 	&:hover {
 		transform: scale(1.1);

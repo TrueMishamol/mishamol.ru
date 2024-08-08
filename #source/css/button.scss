@@ -12,6 +12,10 @@
 	transition: transform 0.3s ease-in-out;
 	white-space: nowrap;
 	-webkit-tap-highlight-color: transparent;
+
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 // .button:focus {
@@ -20,8 +24,8 @@
 // }
 
 .button:visited {
-    outline: none;
-    color: #292B3E;
+	outline: none;
+	color: #292B3E;
 }
 
 .button:hover {
@@ -34,6 +38,3 @@
 	background-color: #292B3E;
 	color: #FFFFFF;
 }
-
-
-

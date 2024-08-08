@@ -55,6 +55,10 @@
 			left: 0;
 			width: var(--100px);
 			height: var(--100px);
+
+			-webkit-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
 		}
 
 		li p {

@@ -7,6 +7,10 @@
 		left: var(--50px);
 		z-index: 5;
 
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+
 		&_logo {
 			width: var(--56px);
 			height: var(--56px);
@@ -29,6 +33,10 @@
 		display: block;
 		text-align: right;
 		margin: var(--32px) var(--50px) var(--32px) auto;
+
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
 
 		&_icon {
 			display: inline-block;

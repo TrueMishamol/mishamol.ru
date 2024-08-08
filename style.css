@@ -613,12 +613,10 @@ p {
 
 .mishamol_description {
   height: 100%;
-  max-width: var(--720px);
   margin: auto;
-  padding: 0 var(--50px);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  padding: var(--50px);
+  width: 100%;
+  display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -629,6 +627,7 @@ p {
   bottom: var(--50px);
 }
 .mishamol_description p {
+  max-width: var(--720px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -669,13 +668,14 @@ p {
   position: relative;
   margin: auto;
   display: block;
-  width: var(--212px);
+  width: var(--720px);
   height: 0;
 }
 .sticker_arrow img {
-  right: var(---256px);
+  float: right;
   top: var(---50px);
-  position: relative;
+  right: 0;
+  position: absolute;
   margin: auto;
   width: var(--212px);
   height: var(--212px);
@@ -806,7 +806,7 @@ p {
 .mishamol_download {
   position: relative;
   top: var(---50px);
-  right: var(---100px);
+  padding-left: var(--212px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -903,7 +903,7 @@ p {
 }
 
 .marquee_game {
-  width: var(--720px);
+  width: 100%;
   padding: 0 var(--64px);
   margin: 0 auto;
 }

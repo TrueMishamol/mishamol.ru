@@ -19,11 +19,10 @@
 
 .mishamol_description {
 	height: 100%;
-	max-width: var(--720px);
 	margin: auto;
-	padding: 0 var(--50px);
-
-	display: flex;
+	padding: var(--50px);
+	width: 100%;
+	display: block;
 	justify-content: center;
 	align-items: center;
 
@@ -31,6 +30,7 @@
 	bottom: var(--50px);
 
 	p {
+		max-width: var(--720px);
 		display: flex;
 		margin: auto;
 	}
@@ -65,14 +65,15 @@
 	position: relative;
 	margin: auto;
 	display: block;
-	width: var(--212px);
+	width: var(--720px);
 	height: 0;
 
 	img {
-		right: var(---256px);
+		float: right;
 		top: var(---50px);
+		right: 0;
 
-		position: relative;
+		position: absolute;
 		margin: auto;
 		width: var(--212px);
 		height: var(--212px);
@@ -205,7 +206,8 @@
 .mishamol_download {
 	position: relative;
 	top: var(---50px);
-	right: var(---100px);
+	// right: var(---100px);
+	padding-left: var(--212px);
 
 	display: flex;
 	flex-direction: column;
